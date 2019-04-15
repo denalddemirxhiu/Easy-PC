@@ -1,0 +1,140 @@
+html {
+  overflow-y: scroll;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: white;
+  max-width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+
+div.feedback-tile {
+  width: 45%;
+  height: 500px;
+  max-width: 700px;
+  min-width: 605px;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 75px;
+	display: block;
+	border-radius: 15px;
+	border: 4px solid #000000;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 30px;
+	padding-top: 77px;
+  background-color: rgba(0,0,0,0.60);
+}
+
+.feedback-header{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 35px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  visibility: hidden;
+}
+
+.name {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding-left: 25px;
+  height: 50px;
+  width: calc(100% - 25px - 4px);
+  background: white;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  visibility: hidden;
+}
+
+.checkbox{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color: white;
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 100%;
+  visibility: hidden;
+}
+
+.checkbox-header {
+  display: inline-block;
+  float: left;
+  font-size: 20px;
+  margin-left: 7px;
+}
+
+.checkboxes {
+  display: inline-block;
+  float: left;
+  margin-left: 80px;
+  margin-top: 3px;
+}
+
+.comment {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  display: inline-block;
+  margin: 0 auto;
+  padding-left: 25px;
+  padding-top: 15px;
+  height: 200px;
+  width: calc(100% - 25px - 4px);
+  background: white;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  visibility: hidden;
+}
+
+.radio-btn {
+  margin-right: 40px;
+}
+
+.submit-btn{
+  font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 25px;
+	width: 100%;
+	height: 50px;
+	border-radius: 10px;
+	border: 2px solid black;
+	background-color: #e60f0f;
+	outline: none;
+	color: white;
+  visibility: hidden;
+
+}
+
+.submit-btn:hover {
+	background-color: #9a1515;
+	color: white;
+	transition: all ease-in-out 150ms;
+  cursor: pointer;
+}
+
+.mytext {
+    width: 300px;
+}

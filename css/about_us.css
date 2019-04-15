@@ -1,0 +1,115 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: white;
+  max-width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 100%;
+}
+
+div.aboutus-tile {
+  width: 67%;
+  height: 1050px;
+  min-width: 675px;
+  max-width: 860px;
+  margin: 0 auto;
+  margin-top: 150px;
+	display: block;
+	border-radius: 15px;
+	border: 4px solid #000000;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+  background-color: rgba(0,0,0,0.60);
+  margin-bottom: 100px;
+}
+
+.aboutus-header{
+  color: white;
+  font-size: 3.125em;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+
+.employee-container {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+
+.information {
+  display: inline-block;
+  float: left;
+  width: 73%;
+  padding-left: 40px;
+}
+
+.portrait {
+  display: inline-block;
+  height: 170px;
+  width: 20%;
+  float: left;
+  border: 2px solid black;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.portrait.jacob {
+    background-image: url(../images/portrait_jacob.jpg);
+}
+
+.portrait.marko {
+    background-image: url(../images/portrait_marko.jpg);
+}
+
+.portrait.denald {
+    background-image: url(../images/portrait_denald.jpg);
+    background-position: center center;
+}
+
+.name-header {
+	font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 45px;
+  color: red;
+  display: inline-block;
+  width: 76%;
+  float: left;
+  padding-left: 20px;
+}
+
+.bio {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  float: left;
+  margin-top: 8px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+.line-divider {
+  border-bottom: 2px solid #000000;
+  display: inline-block;
+  width: 80%;
+  margin-left: 90px;
+  margin-bottom: 90px;
+  margin-top: 90px;
+}

@@ -1,0 +1,219 @@
+body {
+	margin: 0;
+	background-color: #FFF;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+
+}
+
+/* .page-container {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  position: relative;
+} */
+
+@media (max-width: 1400px) {
+	.logo img {
+		width: 175%;
+	}
+}
+
+@media (max-width: 1300px) {
+	.logo img {
+		width: 185%;
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 1050px) {
+	.logo img {
+		width: 185%;
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.logo img {
+		width: 195%;
+		margin-top: 23%;
+	}
+}
+
+/*========= Content - with images =========*/
+
+.main-info {
+	margin: auto;
+	margin-top: -5px;
+	width: 100%;
+	text-align: center;
+}
+
+.main-info:hover {
+
+}
+.info-about {
+	background-image: url('../images/computer.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 10em 0;
+	color: white;
+}
+
+.info-about-textbox {
+	margin: 0 auto;
+	background-color: #C52523;
+	padding: 10px 25px;
+	width: 60%;
+	outline: 2px solid white;
+	outline-offset: -2.5em;
+	position: relative;
+	padding: 4em;
+	box-shadow: 0 0 4em 0 rgba(0,0,0,.5);
+	border-radius: 20px;
+
+}
+
+.info-about-textbox h1 {
+	position: absolute;
+	top: -20px;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 10px;
+	color: white;
+	font-size: 35px;
+	background-color: #C52523;
+	padding-bottom: 0;
+	font-weight: 300;
+	text-align: center;
+
+}
+
+.info-about-textbox p {
+	padding: 30px;
+	font-size: 20px;
+}
+
+
+
+/*========= Main Information about service =========*/
+
+.buttons {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div h1 {
+	text-align: center;
+}
+
+.desktopButton, .workButton, .displayButton, .appleButton {
+	text-decoration: none;
+	font-weight: 500;
+	text-transform: uppercase;
+	background-color: #C52523;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	font-size: 18px;
+	margin: 4px 5%;
+	border-radius: 10px;
+	outline: none;
+
+	transition: ease-in-out 150ms;
+}
+
+.desktopButton:hover, .workButton:hover,
+.displayButton:hover, .appleButton:hover {
+	background-color: white;
+	font-weight: 900;
+	font-size: 20px;
+	color: #C52523;
+}
+
+.show {
+	display: none;
+}
+
+.desktop, .workstation, .displays, .apple {
+	margin: 0 auto;
+	margin: 2% 5%;
+	border: 2px solid #C52523;
+	padding: 15px;
+	display: none;
+}
+
+/*========= Gallery - For pictures of services =========*/
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.slider-wrapper {
+	width: 80%;
+	height: 80%;
+	overflow: hidden;
+}
+
+.inner-wrapper {
+	width: 500%;
+	height: 100%;
+	position: relative;
+	left: -100%;
+}
+
+.slide {
+	width: calc(100% / 5);
+	height: 100%;
+	float: left;
+	font-size: 100px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button {
+	width: 30px;
+	height: 30px;
+	border-top: 2px solid black;
+	position: absolute;
+	cursor: pointer;
+}
+
+.prev {
+	border-left: 2px solid black;
+	left: 5%;
+	transform: rotate(-45deg);
+}
+
+.next {
+	border-right: 2px solid black;
+	right: 5%;
+	transform: rotate(45deg);
+}
+
+/*========= Reviews =========*/
+
+.reviews {
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.reviews h1 {
+	font-size: 4rem;
+}
+
+.reviewGallery {
+	border: 3px solid #C52523;
+	font-size: 30px;
+}
+
+.reviewText {
+	display: none;
+}

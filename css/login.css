@@ -1,0 +1,180 @@
+html {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+body {
+	margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: white;
+	max-width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+div.login-tile {
+	width: 22%;
+  height: 390px;
+  max-width: 22%;
+  min-width: 22%;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 75px;
+  display: block;
+  border-radius: 15px;
+  border: 4px solid #000000;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+  padding-top: 77px;
+  background-color: rgba(0, 0, 0, 0.60);
+}
+
+.login-header {
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 30px;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 25px;
+	color: white;
+  visibility: hidden;
+}
+
+.server-error-prompt {
+  display: inline-block;
+  color: red;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.error {
+  display: inline-block;
+  color: red;
+  margin-left: 12px;
+  visibility: hidden;
+}
+
+.box-shadow-inset {
+  -webkit-box-shadow: inset 0px 0px 0px 2px rgba(255,0,0,1);
+  -moz-box-shadow: inset 0px 0px 0px 2px rgba(255,0,0,1);
+  box-shadow: inset 0px 0px 0px 2px rgba(255,0,0,1);
+}
+
+input {
+  font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	padding-left: 25px;
+	height: 50px;
+	background: white;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+  width: calc(100% - 25px);
+}
+
+.input-container {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  visibility: hidden;
+}
+
+.login-btn {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+	width: 100%;
+	height: 50px;
+	border-radius: 10px;
+	border: 2px solid black;
+	background-color: #e60f0f;
+	outline: none;
+	color: white;
+  visibility: hidden;
+}
+
+.login-btn:hover {
+	background-color: #9a1515;
+	color: white;
+	transition: all ease-in-out 150ms;
+  cursor: pointer;
+}
+
+.sign-up {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+	color: white;
+  visibility: hidden;
+}
+
+.sign-up-link {
+	color: white;
+}
+
+.sign-up-link:hover {
+	color: red;
+}
+
+.login-specs {
+	font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 2px solid #000000;
+  background-color: rgba(0, 0, 0, 0.90);
+  color: red;
+  display: none;
+  padding: 0px 20px 0px 20px;
+  position: absolute;
+  left: 67%;
+  top: 239px;
+}
+
+.hover {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 0.8em;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  background-color: white;
+  color: black;
+  display: none;
+  position: absolute;
+  left: 18%;
+  padding-top: 5px;
+  padding-left: 5px;
+  width: 205px;
+}
+
+.hover.user {
+  top: 290px;
+}
+
+.hover.pass {
+  /* display: block; */
+  top: 345px;
+}
+
+.list {
+  margin: 0;
+  padding-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}

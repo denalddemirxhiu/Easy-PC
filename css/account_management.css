@@ -1,0 +1,119 @@
+html {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+body {
+	margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: white;
+	max-width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+div.button-tile {
+  width: 28%;
+  height: 385px;
+  max-width: 28%;
+  min-width: 28%;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 75px;
+  display: block;
+  border-radius: 15px;
+  border: 4px solid #000000;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background-color: rgba(0, 0, 0, 0.60);
+  text-align: center;
+  visibility: hidden;
+}
+
+button {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+	width: 90%;
+	height: 70px;
+	border-radius: 10px;
+	border: 2px solid black;
+	background-color: #e60f0f;
+	outline: none;
+	color: white;
+  visibility: hidden;
+}
+
+button:hover {
+	background-color: #9a1515;
+	color: white;
+	transition: all ease-in-out 150ms;
+  cursor: pointer;
+}
+
+.username-btn {
+  padding-right: 78px;
+}
+
+.password-btn {
+  padding-right: 70px;
+}
+
+.email-btn {
+  padding-right: 110px;
+}
+
+.bottom {
+  margin-bottom: 17px;
+  padding-bottom: 17px;
+}
+
+.bottom {
+  visibility: hidden;
+}
+
+.last {
+  visibility: hidden;
+}
+
+.icon-holder {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.icon-envelop:before {
+  font-size: 30px;
+  content: "\e945";
+}
+.icon-compass2:before {
+  font-size: 30px;
+  content: "\e94a";
+}
+.icon-user:before {
+  font-size: 30px;
+  content: "\e971";
+}
+.icon-key:before {
+  font-size: 30px;
+  content: "\e98d";
+}
+.icon-question:before {
+  font-size: 30px;
+  content: "\ea09";
+}
+
+.text-container {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 6px;
+}

@@ -1,0 +1,25 @@
+.confirmation-tile {
+  width: 30%;
+  min-width: 30%;
+  margin: 0 auto;
+  margin-top: 300px;
+	display: block;
+
+	border-radius: 15px;
+	border: 4px solid #000000;
+
+	/* padding-right: 50px; */
+	padding-left: 38px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: rgba(0, 0, 0, 0.60);
+  display: none;
+}
+
+.confirm-dialog {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 56px;
+	color: white;
+	/* display: inline-block; */
+}

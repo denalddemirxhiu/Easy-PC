@@ -1,0 +1,21 @@
+footer {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	background-color: #333;
+	margin-top: 20px;
+	display: inline-block;
+	width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+footer p {
+	color: white;
+	display: block;
+	padding-left: 70px;
+}
+
+.rights {
+	font-size: 14px;
+	padding-left: 100px;
+}

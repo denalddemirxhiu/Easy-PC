@@ -1,0 +1,14 @@
+Username specifications:
+must be all letters and numbers.
+Must begin with a letter
+
+Password specifications:
+Must be 8 to 16 characters long
+Must start with a letter
+Has at least one ! Or * in it
+Has as least 1 digit in it
+
+email has to be valid
+
+first name is > 2 and < 20
+last name is > 2 and < 20
